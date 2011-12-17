@@ -1,0 +1,257 @@
+/*
+  @theme Porter
+  @override-placeholders html, xml, css, javascript, php, markdown
+  @version 0.4
+  @author Magnus Kolstad
+*/
+
+@base {
+	color: #fff;
+	background-color: #090909;
+	insertion-point-color: #fff;
+	selection-background-color: #444;
+}
+
+/* @group Generic */
+
+tag, source,
+sourcecode,
+styling {
+	spell-check: disabled;
+}
+
+comment,
+comment > punctuation {
+	color: #726d72;
+	font-style: italic;
+}
+
+string {
+	color: #9faa82;
+}
+
+operator {
+	color: #d7b483;
+}
+
+keyword,
+keyword.operator,
+constant,
+numeric,
+character {
+	color: #e8bf6a;
+}
+
+comment keyword {
+	color: #776644;
+	font-weight: bold;
+}
+
+variable {
+	color: #9faa82;
+}
+
+function,
+definition name {
+	color: #fff;
+}
+
+invalid {
+	color: #fff;
+	background: rgba(150, 0, 0, .8);
+}
+
+/* @end */
+
+/* @group HTML+XML */
+
+tag {
+	color: #e8bf6a;
+	spell-check: disabled;
+}
+
+html doctype,
+html doctype name,
+html doctype punctuation,
+xml processing-instruction,
+xml processing-instruction string,
+xml processing-instruction string value {
+	color: #776644;
+}
+
+html character.entity {
+	color: #CDDE87;
+}
+
+/* @end */
+
+/* @group CSS */
+
+css.embedded {
+	background: #1a1a1a;
+}
+
+css selector,
+css selector punctuation {
+	color: #d7b483;
+}
+
+css property-name {
+	color: #9faa82;
+}
+
+css property-value,
+css support.function.color.css name {
+	color: #faeeb1;
+}
+
+css property-value constant,
+css property-value keyword {
+	color: #da7e63;
+}
+
+css punctuation {
+	color: #fff;
+}
+
+css keyword.important {
+	color: #abc837;
+	font-weight: bold;
+}
+
+css color,
+css color punctuation {
+	color: #fff;
+}
+
+css group-start name {
+	font-weight: bold;
+}
+
+/* @end */
+
+/* @group Javascript */
+
+js.embedded {
+	background: #1a1a1a;
+}
+
+js variable {
+	color: #fff;
+}
+
+js variable.support {
+	color: #ac98ab;
+}
+
+js variable.string {
+	color: #abc837;
+}
+
+js variable.function {
+	color: #ffffff;
+	font-weight: normal;
+}
+
+js variable.keyword {
+	color: #d7b483;
+	font-weight: bold;
+}
+
+js constant {
+	color: #CDDE87;
+}
+
+js class.constructor > variable,
+js function.definition name {
+	color: #EE0F04;
+}
+
+js keyword.language {
+	color: #CDDE87;
+}
+
+/* @end */
+
+/* @group PHP */
+
+php.sourcecode {
+	background: #1a1a1a;
+	spell-check: disabled;
+}
+
+php.embedded {
+	background: #1a1a1a;
+}
+
+php delimiter.source,
+php delimiter.source > *,
+php string > expression.complex > punctuation {
+	color: #ffffff;
+}
+
+php definition name {
+	color: #ac8157;
+}
+
+php function.definition keyword.control {
+	color: #faeeb1;
+}
+
+php variable.function {
+	color: #ffffff;
+	font-weight: normal;
+}
+
+php punctuation.brace.square,
+php punctuation.delimiter {
+	color: #d7b483;
+}
+
+php variable.keyword {
+	font-weight: bold;
+}
+
+php variable.class {
+	color: #cca868;
+}
+
+php variable.class.parent {
+	color: #ad6e44;
+	font-style: italic;
+}
+
+php keyword.language.function,
+php keyword.modifier.scope {
+	color: #faeeb1;
+}
+
+php constant {
+	color: #da7e63;
+}
+
+php constant.numeric,
+php constant.language {
+	color: #da7e63;
+}
+
+php expression.complex variable {
+	color: #9ba9a6;
+}
+
+php comment > keyword {
+	color: #cca868;
+	font-weight: bold;
+}
+
+/* @end */
+
+/* @group Markdown */
+
+markdown > punctuation.definition,
+markdown *:not(html,comment) punctuation.definition,
+markdown separator {
+  color: #726d72;
+}
+
+/* @end */
