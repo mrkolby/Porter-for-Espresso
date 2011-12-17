@@ -164,7 +164,7 @@ js constant {
 
 js class.constructor > variable,
 js function.definition name {
-	color: #EE0F04;
+	color: #da7e63;
 }
 
 js keyword.language {
