@@ -1,7 +1,7 @@
 /*
   @theme Porter
   @override-placeholders html, xml, css, javascript, php, markdown
-  @version 0.4
+  @version 0.4.1
   @author Magnus Kolstad
 */
 
@@ -81,6 +81,10 @@ xml processing-instruction string value {
 
 html character.entity {
 	color: #CDDE87;
+}
+
+html entity.name {
+	color: #cca868;
 }
 
 /* @end */
