@@ -14,7 +14,8 @@
 
 /* @group Generic */
 
-tag, source,
+tag,
+source,
 sourcecode,
 styling {
 	spell-check: disabled;
@@ -22,33 +23,31 @@ styling {
 
 comment,
 comment > punctuation {
-	color: #726d72;
+	color: #666;
 	font-style: italic;
 }
 
 string {
-	color: #9faa82;
+	color: #9a8;
 }
 
-operator {
-	color: #d7b483;
-}
-
+operator,
 keyword,
 keyword.operator,
 constant,
 numeric,
-character {
-	color: #e8bf6a;
+character,
+tag {
+	color: #dc8;
 }
 
 comment keyword {
-	color: #776644;
+	color: #764;
 	font-weight: bold;
 }
 
 variable {
-	color: #9faa82;
+	color: #899;
 }
 
 function,
@@ -64,11 +63,6 @@ invalid {
 /* @end */
 
 /* @group HTML+XML */
-
-tag {
-	color: #e8bf6a;
-	spell-check: disabled;
-}
 
 html doctype,
 html doctype name,
