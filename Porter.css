@@ -86,6 +86,10 @@ html tag.block end {
 	color: #a85;
 }
 
+html tag quoted definition {
+	color: #9a8;
+}
+
 /* @end */
 
 /* @group CSS */
