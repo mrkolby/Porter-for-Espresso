@@ -21,12 +21,6 @@ styling {
 	spell-check: disabled;
 }
 
-comment,
-comment > punctuation {
-	color: #666;
-	font-style: italic;
-}
-
 string {
 	color: #9a8;
 }
@@ -41,11 +35,6 @@ tag {
 	color: #dc8;
 }
 
-comment keyword {
-	color: #764;
-	font-weight: bold;
-}
-
 variable {
 	color: #899;
 }
@@ -58,6 +47,20 @@ definition name {
 invalid {
 	color: #fff;
 	background: rgba(150, 0, 0, .8);
+}
+
+/* @end */
+
+/* @group Comments */
+
+comment,
+comment > punctuation {
+	color: #666;
+}
+
+comment keyword {
+	color: #764;
+	font-weight: bold;
 }
 
 /* @end */
