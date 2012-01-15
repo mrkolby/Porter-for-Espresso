@@ -73,15 +73,13 @@ html doctype punctuation,
 xml processing-instruction,
 xml processing-instruction string,
 xml processing-instruction string value {
-	color: #776644;
+	color: #764;
 }
 
 html character.entity {
-	color: #CDDE87;
+	color: #c64;
 }
 
-html entity.name {
-	color: #cca868;
 html block,
 html block begin,
 html block end {
@@ -242,11 +240,6 @@ php constant.language {
 
 php expression.complex variable {
 	color: #9ba9a6;
-}
-
-php comment > keyword {
-	color: #cca868;
-	font-weight: bold;
 }
 
 /* @end */
