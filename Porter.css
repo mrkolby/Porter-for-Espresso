@@ -80,9 +80,9 @@ html character.entity {
 	color: #c64;
 }
 
-html block,
-html block begin,
-html block end {
+html tag.block,
+html tag.block begin,
+html tag.block end {
 	color: #a85;
 }
 
@@ -152,7 +152,7 @@ js variable.string {
 }
 
 js variable.function {
-	color: #ffffff;
+	color: #ed9;
 	font-weight: normal;
 }
 
@@ -162,12 +162,12 @@ js variable.keyword {
 }
 
 js constant {
-	color: #CDDE87;
+	color: #c64;
 }
 
 js class.constructor > variable,
 js function.definition name {
-	color: #da7e63;
+	color: #974;
 }
 
 js keyword.language {
