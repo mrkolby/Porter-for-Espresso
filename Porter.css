@@ -82,6 +82,10 @@ html character.entity {
 
 html entity.name {
 	color: #cca868;
+html block,
+html block begin,
+html block end {
+	color: #a85;
 }
 
 /* @end */
