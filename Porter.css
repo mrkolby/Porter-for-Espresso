@@ -195,7 +195,7 @@ php.embedded {
 php delimiter.source,
 php delimiter.source > *,
 php string > expression.complex > punctuation {
-	color: #ffffff;
+	color: #fff;
 }
 
 php definition name {
