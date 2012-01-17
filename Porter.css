@@ -87,6 +87,7 @@ html tag.block end {
 }
 
 html tag quoted definition {
+html tag quoted punctuation.definition {
 	color: #9a8;
 }
 
