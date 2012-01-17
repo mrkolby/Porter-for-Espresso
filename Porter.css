@@ -193,7 +193,9 @@ php.embedded {
 
 php delimiter.source,
 php delimiter.source > *,
-php string > expression.complex > punctuation {
+php string > expression.complex > punctuation,
+php punctuation.round,
+php punctuation.curly {
 	color: #fff;
 }
 
@@ -201,7 +203,9 @@ php definition name {
 	color: #ac8157;
 }
 
-php function.definition keyword.control {
+php function.definition keyword.control,
+php keyword.language.function,
+php keyword.modifier.scope {
 	color: #faeeb1;
 }
 
@@ -226,11 +230,6 @@ php variable.class {
 php variable.class.parent {
 	color: #ad6e44;
 	font-style: italic;
-}
-
-php keyword.language.function,
-php keyword.modifier.scope {
-	color: #faeeb1;
 }
 
 php constant {
