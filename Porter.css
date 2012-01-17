@@ -86,7 +86,6 @@ html tag.block end {
 	color: #a85;
 }
 
-html tag quoted definition {
 html tag quoted punctuation.definition {
 	color: #9a8;
 }
@@ -207,7 +206,7 @@ php function.definition keyword.control {
 }
 
 php variable.function {
-	color: #ffffff;
+	color: #fff;
 	font-weight: normal;
 }
 
@@ -245,6 +244,10 @@ php constant.language {
 
 php expression.complex variable {
 	color: #9ba9a6;
+}
+
+embedded.language-root.php {
+	background: #202020;
 }
 
 /* @end */
