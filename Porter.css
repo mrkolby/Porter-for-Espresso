@@ -1,7 +1,7 @@
 /*
   @theme Porter
   @override-placeholders html, xml, css, javascript, php, markdown
-  @version 0.4.1
+  @version 0.4.2
   @author Magnus Kolstad
 */
 
@@ -21,7 +21,9 @@ styling {
 	spell-check: disabled;
 }
 
-string {
+string,
+string.quoted.single,
+string.quoted.double {
 	color: #9a8;
 }
 
@@ -86,7 +88,7 @@ html tag.block end {
 	color: #a85;
 }
 
-html tag quoted punctuation.definition {
+html tag quoted punctuation {
 	color: #9a8;
 }
 
